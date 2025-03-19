@@ -22,7 +22,7 @@ spec:
         app: crypto-app
     spec:
       containers:
-      - image: 377027906194.dkr.ecr.us-east-1.amazonaws.com/crypto-app:latest
+      - image: __IMAGE__
         imagePullPolicy: Always
         name: crypto-app
         ports:
