@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM public.ecr.aws/docker/library/python:3.11-bullseye
+FROM python:3.11-bullseye
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
