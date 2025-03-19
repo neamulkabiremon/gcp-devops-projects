@@ -2,7 +2,7 @@ options:
   logging: CLOUD_LOGGING_ONLY  # Send logs to Google Cloud Logging
 
 substitutions:
-  _IMAGE_NAME: "us-docker.pkg.dev/${PROJECT_ID}/gcpdevops-prod:${SHORT_SHA}"
+  _IMAGE_NAME: "gcr.io/${PROJECT_ID}/gcpdevops-prod:${SHORT_SHA}"
 
 steps:
   # Step 1: Build Docker image with SHA-based tagging
