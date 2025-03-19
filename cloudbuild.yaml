@@ -28,6 +28,6 @@ steps:
       - --image=${_IMAGE_NAME}  # Correct image reference
       - --location=us-central1-a  
       - --cluster=gcp-devops-project  
-      - --namespace=gcp-devops-prod  
+      - --namespace=development  
       - --filename=gke.yaml
 
